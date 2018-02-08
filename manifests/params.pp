@@ -63,6 +63,7 @@ class neutron::params {
     $dhcp_agent_package                 = false
     $lbaasv2_agent_package              = 'openstack-neutron-lbaas'
     $metering_agent_package             = 'openstack-neutron-metering-agent'
+    $metadata_agent_package             = false
     $vpnaas_agent_package               = 'openstack-neutron-vpnaas'
     $l2gw_agent_package                 = 'openstack-neutron-l2gw-agent'
     $l2gw_package                       = 'python2-networking-l2gw'
