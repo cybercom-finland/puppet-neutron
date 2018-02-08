@@ -60,6 +60,7 @@ class neutron::params {
     $nvp_server_package         = 'openstack-neutron-nicira'
     $dhcp_agent_package         = false
     $lbaasv2_agent_package      = 'openstack-neutron-lbaas'
+    $metadata_agent_package     = false
     $metering_agent_package     = 'openstack-neutron-metering-agent'
     $vpnaas_agent_package       = 'openstack-neutron-vpnaas'
     $l2gw_agent_package         = 'openstack-neutron-l2gw-agent'
